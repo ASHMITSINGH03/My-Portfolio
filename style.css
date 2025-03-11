@@ -518,7 +518,7 @@ span{
     left: 30px;
     border: medium solid #f6332a;
     border-width: 10px 10px 10px 0;
-    border-color: transparent transparent transparent #f6332a;
+    border-color: transparent #f6332a transparent transparent;
 }
 
 .education .right::after{
@@ -533,12 +533,12 @@ span{
 
 .education .content .tag{
     font-size: 1.5rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     padding-left: 1.5rem;
 }
 
 .education .content .decs{
-    margin-left: 1.5;
+    margin-left: 1.5rem;
     padding-bottom: 1rem;
 }
 
@@ -579,6 +579,9 @@ span{
     }
     .education .right::after{
         left: 15px;
+    }
+    .education .right {
+        left: 0%;
     }
 }
 
