@@ -319,6 +319,7 @@ span{
     background-color: #f6332a;
     height: 300px;
     border-radius: 3rem;
+    overflow: hidden;
     cursor: pointer;
     transition: 0.3s ease;
 }
